@@ -11,6 +11,14 @@ Locus labels (=keys):
 ## Prerequisites:
     Python2.7
     BLAST+ (ncbi-blast-2.4.0+ to -2.8.1+)
+    python libraries used inside:
+	    import sys
+	    import os
+	    import re
+	    from optparse import OptionParser
+	    import subprocess
+	    import gzip
+	    from collections import OrderedDict
     
 ## Input:
     Fastq file or pair-end fastq files
