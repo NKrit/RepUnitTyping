@@ -1,6 +1,20 @@
 # RepUnitTyping
-RepUnitTyping
 
+# RepUnitTyping
+RepUnitTyping.py predicts repeat unit numbers in VNTR loci from PCR-free Illumina short reads.
+Locus labels (=keys): 
+['M2', '0424', 'ETR-C', 'M4', 'M40', 'M10', 'M16', '1955', '1982', 'M20', '2074', '2163a', '2163b', 'ETR-A', '2347', '2372', '2401', 'ETR-B', 'M23', 'M24', 'M26', 'M27', '3155', '3171', 'M31', '3232', '3336', '3690', '3820', '4052', '4120', '4156', 'M39']
+
+## Input:
+    Fastq file or pair-end fastq files
+    Fasta file of a complete genomic sequence or assembled contigs of an Mtb isolate
+
+## Output:
+    In the output file specified: predicted number of repeat units (VNTR loci)
+    In the output log file: count of hits from BLAST result for each repeat unit and flanking sequences.
+    In the output log2 file: candidate repeat variants in fasta mode
+
+## Usage
 $ python RepUnitTyping3.3.py --help
 
     Usage: python RepUnitTyping3.3.py [options] FASTQ_1/FASTA FASTQ_2(optional)
@@ -40,3 +54,8 @@ $ python RepUnitTyping3.3.py --help
                           query file for repeat units [Default is rep_unit.fasta
                         in "ref" subdirectory]
                         
+## Example
+    $ cd ./RepUnitTyping
+    $ python RepUnitTyping3.3.py -s off ../ncbi-blast-2.8.1+/AL123456.3H37Rv_fasta-l150-f400_R1.fq.gz ../ncbi-blast-2.8.1+/AL123456.3H37Rv_fasta-l150-f400_R2.fq.gz -q rep_unit.fasta -O RepUnit_out -o 20190403RepUnitTyping -p
+
+or you can use shell script, rep-unit-typing.sh, to run RepUnitTyping.py
