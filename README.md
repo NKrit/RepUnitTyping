@@ -18,7 +18,7 @@ Locus labels (=keys):
 
 ## Output:
     In the output file specified: predicted number of repeat units (VNTR loci)
-    In the output log file: count of hits from BLAST result for each repeat unit and flanking sequences.
+    In the output log file: count of hits from BLAST result for each repeat unit and flanking sequence.
     In the output log2 file: candidate repeat variants in fasta mode
 
 ## Usage
