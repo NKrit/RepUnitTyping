@@ -2,6 +2,7 @@
 RepUnitTyping
 
 $ python RepUnitTyping3.3.py --help
+
 Usage: python RepUnitTyping3.3.py [options] FASTQ_1/FASTA FASTQ_2(optional)
 
 Options:
