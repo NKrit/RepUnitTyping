@@ -1,6 +1,6 @@
 # RepUnitTyping
 
-# RepUnitTyping
+## RepUnitTyping
 RepUnitTyping.py predicts repeat unit numbers in VNTR loci from PCR-free Illumina short reads.
 Locus labels (=keys): 
 ['M2', '0424', 'ETR-C', 'M4', 'M40', 'M10', 'M16', '1955', '1982', 'M20', '2074', '2163a', '2163b', 'ETR-A', '2347', '2372', '2401', 'ETR-B', 'M23', 'M24', 'M26', 'M27', '3155', '3171', 'M31', '3232', '3336', '3690', '3820', '4052', '4120', '4156', 'M39']
