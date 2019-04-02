@@ -5,9 +5,9 @@ $ python RepUnitTyping3.3.py --help
 
 Usage: python RepUnitTyping3.3.py [options] FASTQ_1/FASTA FASTQ_2(optional)
 
-Options:
+
+    Options:
     --version             show program's version number and exit
-  
     -h, --help            show this help message and exit
   
     -p, --pred            Set this if you try prediction of the number of repeat
