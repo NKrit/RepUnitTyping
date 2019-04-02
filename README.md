@@ -54,11 +54,11 @@ $ python RepUnitTyping.py --help
     --sorted            set this only when the reads are sorted to a reference
                         genome [Default is off]
                         
-    -d, --detail          enable detail mode, keeping intermediate files for
+    -d, --detail        enable detail mode, keeping intermediate files for
                         checking [Default is off]
                         
     -q Q_FASTA, --query=Q_FASTA
-                          query file for repeat units [Default is rep_unit.fasta
+                        query file for repeat units [Default is rep_unit.fasta
                         in "ref" subdirectory]
                         
 ## Example
