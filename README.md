@@ -24,7 +24,7 @@ Locus labels (=keys):
 ## Usage
 $ python RepUnitTyping.py --help
 
-    Usage: python RepUnitTyping3.3.py [options] FASTQ_1/FASTA FASTQ_2(optional)
+    Usage: python RepUnitTyping.py [options] FASTQ_1/FASTA FASTQ_2(optional)
 
     Options:
     --version           show program's version number and exit
@@ -64,5 +64,5 @@ $ python RepUnitTyping.py --help
 ## Example
     $ cd ./RepUnitTyping
     $ python RepUnitTyping.py -s off ../AL123456.3H37Rv_fasta-l150-f400_R1.fq.gz ../AL123456.3H37Rv_fasta-l150-f400_R2.fq.gz -q rep_unit.fasta -O RepUnit_out -o 20190403RepUnitTyping -p
-
+    $ # rep_unit.fasta should be located in the ref subdirectory.
 or you can use a shell script, rep-unit-typing.sh, to run RepUnitTyping.py
