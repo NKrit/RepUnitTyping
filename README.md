@@ -20,17 +20,24 @@ Options:
                         
   -s SWIFT, --swift=SWIFT
                         swift mode, either "on" or "off" [Default: on]
+                        
   -O OUTDIR, --outdir=OUTDIR
                         output directory [Default: running directory]
+                        
   -o OUTPUT, --output=OUTPUT
                         basename of output files generated [Default:
                         RepUnitTyping]
+                        
   -f, --filter          stringent filtering of reads (used only for low
                         quality reads)[Default is off]
+                        
   --sorted              set this only when the reads are sorted to a reference
                         genome [Default is off]
+                        
   -d, --detail          enable detail mode, keeping intermediate files for
                         checking [Default is off]
+                        
   -q Q_FASTA, --query=Q_FASTA
                         query file for repeat units [Default is rep_unit.fasta
                         in "ref" subdirectory]
+                        
