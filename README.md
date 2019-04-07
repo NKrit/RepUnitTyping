@@ -70,7 +70,7 @@ $ python RepUnitTyping.py --help
                         query file for repeat units [Default is rep_unit.fasta
                         in "ref" subdirectory]
                         
-## Example
+## Examples
     $ cd ./RepUnitTyping
     $ python RepUnitTyping.py -s off ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H37Rv7.5M_R2.fastq.gz -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping -p # prediction/non-swift mode for paired fastq files
     $ python RepUnitTyping.py -s on ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H37Rv7.5M_R2.fastq.gz -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping # non-prediction/swift mode for paired fastq files 
