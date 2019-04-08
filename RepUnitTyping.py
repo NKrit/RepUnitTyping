@@ -18,7 +18,7 @@
 
 ## The backbone of this program is SpoTyping-v2.1 developed for in-silico spoligotyping by Xia Eryu (Genome Medicine, 2016)
 ## Entire modules for VNTR repeat-unit prediction were newly created and merged with this backbone by N Keicho (nkeicho-tky@umin.ac.jp) 
-## temporary version 3.4 (20190407)
+## temporary version 3.4 (20190407) -v1.0
 
 ## --------------------------------
 
