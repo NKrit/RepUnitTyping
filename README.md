@@ -3,7 +3,7 @@
 ## RepUnitTyping
 RepUnitTyping.py predicts repeat unit numbers in VNTR loci from PCR-free Illumina short reads.
 
-This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016)
+This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016).
 Entire modules for VNTR repeat-unit prediction were newly built in this script.
 
 Locus labels (=keys): 
@@ -35,7 +35,7 @@ Locus labels (=keys):
     In the output log file: count of hits from BLAST result for each repeat unit and flanking sequence
     In the output log2 file: candidate repeat variants in fasta mode
 
-## Usage
+## Usage:
 $ python RepUnitTyping.py --help
 
     Usage: python RepUnitTyping.py [options] FASTQ_1/FASTA FASTQ_2(optional)
@@ -75,7 +75,7 @@ $ python RepUnitTyping.py --help
                         query file for repeat units [Default is rep_unit.fasta
                         in "ref" subdirectory]
                         
-## Examples
+## Examples:
     $ cd ./RepUnitTyping
     $ python RepUnitTyping.py -s off ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H37Rv7.5M_R2.fastq.gz -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping -p # prediction/non-swift mode for paired fastq files
     $ python RepUnitTyping.py -s on ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H37Rv7.5M_R2.fastq.gz -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping # non-prediction/swift mode for paired fastq files 
