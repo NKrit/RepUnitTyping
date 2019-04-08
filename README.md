@@ -11,7 +11,8 @@ Locus labels (=keys):
 
 ## Prerequisites:
     Python2.7 or 3.5
-    BLAST+ (ncbi-blast-2.4.0+ to -2.8.1+)
+    BLAST+ [ncbi-blast-2.4.0+ to the latest (-2.8.1+)]
+    ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/
     python libraries used inside:
 	    import sys
 	    import os
