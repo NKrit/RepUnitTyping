@@ -44,11 +44,11 @@ $ python RepUnitTyping.py --help
     --version           show program's version number and exit
     -h, --help          show this help message and exit
   
-    -p, --pred          Set this if you try prediction of the number of repeat
+    -p, --pred          set this if you try prediction of the number of repeat
                         units based on hits on flanking sequences [Default is
                         off]
                         
-    --seq               Set this if input is a fasta file that contains only a
+    --seq               set this if input is a fasta file that contains only a
                         complete genomic sequence or assembled contigs from an
                         Mtb isolate [Default is off]
                         
