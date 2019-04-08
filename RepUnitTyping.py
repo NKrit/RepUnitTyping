@@ -37,8 +37,8 @@ setlength = 50*4500000                             # base input cut-off for swif
 ## Option variables
 usage = "usage: python %prog [options] FASTQ_1/FASTA FASTQ_2(optional)"
 parser = OptionParser(usage=usage, version="v1.0")
-parser.add_option("-p","--pred",action="store_true",dest="pred",help="Set this if you try prediction of the number of repeat units based on hits on flanking sequences [Default is off]")
-parser.add_option("--seq",action="store_true",dest="seq",help="Set this if input is a fasta file that contains only a complete genomic sequence or assembled contigs from an Mtb isolate [Default is off]")
+parser.add_option("-p","--pred",action="store_true",dest="pred",help="set this if you try prediction of the number of repeat units based on hits on flanking sequences [Default is off]")
+parser.add_option("--seq",action="store_true",dest="seq",help="set this if input is a fasta file that contains only a complete genomic sequence or assembled contigs from an Mtb isolate [Default is off]")
 parser.add_option("-s","--swift",action="store",type="string",dest="swift",default="on",help="swift mode, either \"on\" or \"off\" [Default: on]")
 parser.add_option("-O","--outdir",action="store",type="string",dest="outdir",default=".",help="output directory [Default: running directory]")
 parser.add_option("-o","--output",action="store",type="string",dest="output",default="RepUnitTyping",help="basename of output files generated [Default: RepUnitTyping]")
