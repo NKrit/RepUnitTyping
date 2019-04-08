@@ -20,6 +20,9 @@ Locus labels (=keys):
 	    import subprocess
 	    import gzip
 	    from collections import OrderedDict
+## Installation:
+    $ cd
+    $ git clone https://github.com/NKrit/RepUnitTyping.git
     
 ## Input:
     Fastq file or pair-end fastq files
@@ -77,7 +80,7 @@ $ python RepUnitTyping.py --help
     $ python RepUnitTyping.py --seq ../AL123456.3H37Rv.fasta -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping -p # fasta mode mainly for complete genome sequence data
     $ # rep_unit.fasta should be located in the ref subdirectory.
     
-or you can use a shell script, rep-unit-typing.sh, to run RepUnitTyping.py    
+or you may use a shell script, rep-unit-typing.sh, to run RepUnitTyping.py more interactively.    
 
     $ sh ./rep-unit-typing.sh
 
