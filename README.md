@@ -85,6 +85,7 @@ $ python RepUnitTyping.py --help
     
 or you may use a shell script, rep-unit-typing.sh, to run RepUnitTyping.py more interactively.    
 
+    $ cd ./RepUnitTyping
     $ sh ./rep-unit-typing.sh
 
 For good prediction, PCR-free deep sequencing (coverage depth > 200) is required.  
