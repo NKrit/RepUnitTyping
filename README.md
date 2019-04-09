@@ -86,7 +86,7 @@ python RepUnitTyping.py -s off ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H
 python RepUnitTyping.py -s on ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H37Rv7.5M_R2.fastq.gz -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping # non-prediction/swift mode for paired fastq files 
 python RepUnitTyping.py --seq ../AL123456.3H37Rv.fasta -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping -p # fasta mode mainly for complete genome sequence data
 # rep_unit.fasta should be located in the ref subdirectory.
-# Output files created from the last command are kept in the RepUnit_out directory as an example. Please delete them when new analyses are made.
+# Output files created from the last command are present in the RepUnit_out directory as an example. You can delete them when new analyses are made.
 ```
 or you may use a shell script, rep-unit-typing.sh, to run RepUnitTyping.py more interactively.    
 ```
