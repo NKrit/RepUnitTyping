@@ -38,8 +38,9 @@ Locus labels (=keys):
     In the output log2 file: candidate repeat variants in fasta mode
 
 ## Usage:
+```sh
 $ python RepUnitTyping.py --help
-
+```
     Usage: python RepUnitTyping.py [options] FASTQ_1/FASTA FASTQ_2(optional)
 
     Options:
