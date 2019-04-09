@@ -34,9 +34,9 @@ git clone https://github.com/NKrit/RepUnitTyping.git
     Fasta file of a complete genomic sequence or assembled contigs of an Mtb isolate
 
 ## Output:
-    In the output file specified: predicted number of repeat units (VNTR loci)
-    In the output log file: count of hits from BLAST result for each repeat unit and flanking sequence
-    In the output log2 file: candidate repeat variants in fasta mode
+    Output file specified: predicted number of repeat units (VNTR loci)
+    Output log file: count of hits from BLAST result for each repeat unit and flanking sequence
+    Output log2 file: candidate repeat variants in fasta mode
 
 ## Usage:
 ```
