@@ -13,8 +13,8 @@ Locus labels (=keys):
 
 ## Prerequisites:
     Python2.7 or 3.5
-    BLAST+ [ncbi-blast-2.4.0+ or the latest (-2.8.1+)]
-    (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/)
+    [BLAST+](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/) [ncbi-blast-2.4.0+ or the latest (-2.8.1+)]
+    
     python libraries used inside:
 	    import sys
 	    import os
