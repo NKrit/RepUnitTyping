@@ -25,9 +25,10 @@ Locus labels (=keys):
 	    from collections import OrderedDict
 	    
 ## Installation:
-    $ cd
-    $ git clone https://github.com/NKrit/RepUnitTyping.git
-    
+```
+cd
+git clone https://github.com/NKrit/RepUnitTyping.git
+```    
 ## Input:
     Fastq file or pair-end fastq files
     Fasta file of a complete genomic sequence or assembled contigs of an Mtb isolate
@@ -38,7 +39,7 @@ Locus labels (=keys):
     In the output log2 file: candidate repeat variants in fasta mode
 
 ## Usage:
-```sh
+```
 python RepUnitTyping.py --help
 
     Usage: python RepUnitTyping.py [options] FASTQ_1/FASTA FASTQ_2(optional)
@@ -80,17 +81,17 @@ python RepUnitTyping.py --help
 ```
 ## Examples:
 ```
-    cd ./RepUnitTyping
-    python RepUnitTyping.py -s off ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H37Rv7.5M_R2.fastq.gz -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping -p # prediction/non-swift mode for paired fastq files
-    python RepUnitTyping.py -s on ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H37Rv7.5M_R2.fastq.gz -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping # non-prediction/swift mode for paired fastq files 
-    python RepUnitTyping.py --seq ../AL123456.3H37Rv.fasta -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping -p # fasta mode mainly for complete genome sequence data
-    # rep_unit.fasta should be located in the ref subdirectory.
-    # Output files created from the last command are kept in the RepUnit_out directory as an example. Please delete them when new analyses are made.
+cd ./RepUnitTyping
+python RepUnitTyping.py -s off ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H37Rv7.5M_R2.fastq.gz -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping -p # prediction/non-swift mode for paired fastq files
+python RepUnitTyping.py -s on ../AL123456.3H37Rv7.5M_R1.fastq.gz ../AL123456.3H37Rv7.5M_R2.fastq.gz -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping # non-prediction/swift mode for paired fastq files 
+python RepUnitTyping.py --seq ../AL123456.3H37Rv.fasta -q rep_unit.fasta -O RepUnit_out -o 2019RepUnitTyping -p # fasta mode mainly for complete genome sequence data
+# rep_unit.fasta should be located in the ref subdirectory.
+# Output files created from the last command are kept in the RepUnit_out directory as an example. Please delete them when new analyses are made.
 ```
 or you may use a shell script, rep-unit-typing.sh, to run RepUnitTyping.py more interactively.    
 ```
-    cd ./RepUnitTyping
-    sh rep-unit-typing.sh
+cd ./RepUnitTyping
+sh rep-unit-typing.sh
 ```
 * For good prediction, PCR-free deep sequencing (coverage depth > 200) is required.
 * When inconsistencies with experimental typing results are suspected, incomplete matches due to unidentified repeat unit variants or flanking sequences should be considered, and an optimal rep_unit fasta file should be reconstructed, extracting the variants from de-novo assembled sequences.
