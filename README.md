@@ -1,7 +1,7 @@
 # RepUnitTyping
 
 ## RepUnitTyping
-RepUnitTyping.py predicts copy numbers of repeat units in VNTR loci from PCR-free Illumina short reads.
+**RepUnitTyping.py** predicts copy numbers of repeat units in VNTR loci from PCR-free Illumina short reads.
 
 This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016).
 Entire modules for VNTR repeat-unit prediction were newly built in this script.
