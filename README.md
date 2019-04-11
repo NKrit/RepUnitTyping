@@ -6,10 +6,13 @@ RepUnitTyping.py predicts copy numbers of repeat units in VNTR loci from PCR-fre
 This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016).
 Entire modules for VNTR repeat-unit prediction were newly built in this script.
 
-Locus labels (=keys): 
-[M2, 0424, ETR-C, M4, M40, M10, M16, 1955, 1982, M20, 2074, 2163a, 2163b, ETR-A, 2347, 2372, 2401, ETR-B, M23, M24, M26, M27, 3155, 3171, M31, 3232, 3336, 3690, 3820, 4052, 4120, 4156, M39]
+**ref/rep_unit.fasta:** contains a whole set of repeat unit variants observed in the 33 loci of _Mycobaterium tuberculosis_ for MIRU24 and other VNTR analysis. You can prepare another multi-fasta file containing user-specified repeat unit variants optimized for your own settings.
 
-* MIRU24 = [MIRU02(M2), Mtub04(0424), ETR-C, MIRU04(M4), MIRU40(M40), MIRU10(M10), MIRU16(M16), Mtub21(1955), MIRU20(M20), QUB11b(2163b), ETR-A, Mtub29(2347), Mtub30(2401), ETR-B, MIRU23(M23), MIRU24(M24), MIRU26(M26), MIRU27(M27), Mtub34(3171), MIRU31(M31), Mtub39(3690), QUB26(4052), QUB4156(4156), MIRU39(M39)]
+	Locus labels (=keys): 
+	[M2, 0424, ETR-C, M4, M40, M10, M16, 1955, 1982, M20, 2074, 2163a, 2163b, ETR-A, 2347, 2372, 2401, ETR-B, M23, M24, M26, M27, 3155, 3171, M31, 3232, 3336, 3690, 3820, 4052, 4120, 4156, M39]
+	
+	* MIRU24 = [MIRU02(M2), Mtub04(0424), ETR-C, MIRU04(M4), MIRU40(M40), MIRU10(M10), MIRU16(M16), Mtub21(1955), MIRU20(M20), QUB11b(2163b), ETR-A, Mtub29(2347), Mtub30(2401), ETR-B, MIRU23(M23), MIRU24(M24), MIRU26(M26), MIRU27(M27), Mtub34(3171), MIRU31(M31), Mtub39(3690), QUB26(4052), QUB4156(4156), MIRU39(M39)]
+
 
 ## Prerequisites:
     Python2.7 or 3.5
