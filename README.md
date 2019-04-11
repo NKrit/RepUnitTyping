@@ -97,4 +97,4 @@ cd ./RepUnitTyping
 sh rep-unit-typing.sh
 ```
 * For good prediction, PCR-free deep sequencing (coverage depth > 200) is required.
-* When inconsistencies with experimental typing results are suspected, incomplete matches due to unidentified repeat unit variants or flanking sequences should be considered, and an optimal **rep_unit.fasta** file should be reconstructed, extracting the variants from de-novo assembled sequences.
+* When inconsistencies with experimental typing results are suspected, incomplete matches due to unidentified repeat unit variants or flanking sequences should be considered, and an optimal **rep_unit.fasta** file should be reconstructed, extracting possible variants from de-novo assembled sequences.
