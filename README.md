@@ -3,13 +3,13 @@
 ## RepUnitTyping
 **RepUnitTyping.py** predicts copy numbers of repeat units in VNTR loci from PCR-free Illumina short reads.
 
-This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016).
-Entire modules for VNTR repeat-unit prediction were newly built in this script.
+ This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016).
+ Entire modules for VNTR repeat-unit prediction were newly built in this script.
 
 **ref/rep_unit.fasta** contains a whole set of repeat unit sequences observed in the 33 VNTR loci of _Mycobacterium tuberculosis_ for the 24-locus MIRU-VNTR and other genotyping analyses.
 
-You may prepare another multi-fasta file containing user-specified variants optimized for your own settings.  
-In the non-prediction mode, the presence or absence of the variants is shown.
+ You may prepare another multi-fasta file containing user-specified variants optimized for your own settings.  
+ In the non-prediction mode, the presence or absence of the variants is shown.
 
 Locus labels (=keys):  
 [M2, 0424, ETR-C, M4, M40, M10, M16, 1955, 1982, M20, 2074, 2163a, 2163b, ETR-A, 2347, 2372, 2401, ETR-B, M23, M24, M26, M27, 3155, 3171, M31, 3232, 3336, 3690, 3820, 4052, 4120, 4156, M39]
