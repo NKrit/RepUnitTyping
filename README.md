@@ -6,7 +6,8 @@
 This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016).
 Entire modules for VNTR repeat-unit prediction were newly built in this script.
 
-**ref/rep_unit.fasta** contains a whole set of repeat unit sequences observed in the 33 VNTR loci of _Mycobacterium tuberculosis_ for the 24-locus MIRU-VNTR and other genotyping analyses. You may prepare another multi-fasta file containing user-specified repeat unit variants optimized for your own settings.
+**ref/rep_unit.fasta** contains a whole set of repeat unit sequences observed in the 33 VNTR loci of _Mycobacterium tuberculosis_ for the 24-locus MIRU-VNTR and other genotyping analyses. You may prepare another multi-fasta file containing user-specified variants optimized for your own settings.
+In the non-prediction mode, the presence or absence of the variants is shown.
 
 Locus labels (=keys):  
 [M2, 0424, ETR-C, M4, M40, M10, M16, 1955, 1982, M20, 2074, 2163a, 2163b, ETR-A, 2347, 2372, 2401, ETR-B, M23, M24, M26, M27, 3155, 3171, M31, 3232, 3336, 3690, 3820, 4052, 4120, 4156, M39]
@@ -38,8 +39,8 @@ git clone https://github.com/NKrit/RepUnitTyping.git
 
 ## Output:
     Output file specified: predicted number of repeat units (VNTR loci)
-    Output log file: count of hits from BLAST result for each repeat unit and flanking sequence
-    Output log2 file: candidate repeat variants in fasta mode
+    Output log file: BLAST hits, exact matches with each repeat unit and flanking sequence
+    Output log2 file: variants extracted in the fasta mode
 
 ## Usage:
 ```
@@ -97,4 +98,4 @@ cd ./RepUnitTyping
 sh rep-unit-typing.sh
 ```
 * For good prediction, PCR-free deep sequencing (coverage depth > 200) is required.
-* When inconsistencies with experimental typing results are suspected, incomplete matches due to unidentified repeat unit variants or flanking sequences should be considered, and an optimal **rep_unit.fasta** file should be reconstructed, extracting possible variants from de-novo assembled sequences.
+* When inconsistencies with experimental typing results are suspected, incomplete matches due to unidentified repeat unit variants or flanking sequences should be considered, and an optimal **rep_unit.fasta** file should be reconstructed, extracting unlisted variants from de-novo assembled sequences.
