@@ -60,7 +60,7 @@ python RepUnitTyping.py --help
                         Mtb isolate [Default is off]
                         
     -s SWIFT, --swift=SWIFT
-                        swift mode, either "on" or "off" [Default: on]
+                        swift mode, either "on" or "off" [Default: off]
                         
     -O OUTDIR, --outdir=OUTDIR
                         output directory [Default: running directory]
