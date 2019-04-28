@@ -1,6 +1,6 @@
 # RepUnitTyping
 
-## RepUnitTyping version 1.2
+## RepUnitTyping version 1.3
 **RepUnitTyping.py** predicts copy numbers of repeat units in VNTR loci from PCR-free Illumina short reads.  
 This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016).
 Entire modules for VNTR repeat-unit prediction were newly built in this script.
@@ -17,9 +17,12 @@ Locus labels (=keys):
 
 
 ## Prerequisites:
-    Python2.7 or 3.5
+    Python2.7 or 3.x
     BLAST+ [ncbi-blast-2.4.0+ or the latest (-2.8.1+)]
     (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/)
+    samtools-1.x
+    (http://www.htslib.org/download/)
+    
     python libraries used inside:
 	    import sys
 	    import os
