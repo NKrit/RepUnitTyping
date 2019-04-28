@@ -8,7 +8,6 @@ Entire modules for VNTR repeat-unit prediction were newly built in this script.
 **ref/rep_unit.fasta** contains a provisional set of repeat unit sequences and their flanking sequences observed in the 33 VNTR loci of _Mycobacterium tuberculosis_ for the 24-locus MIRU-VNTR and other VNTR analyses.
 
 You may prepare another multi-fasta file containing user-specified variants optimized for your own settings.  
-In the non-prediction mode, the presence or absence of the variants is shown.
 
 Locus labels (=keys):  
 [M2, 0424, ETR-C, M4, M40, M10, M16, 1955, 1982, M20, 2074, 2163a, 2163b, ETR-A, 2347, 2372, 2401, ETR-B, M23, M24, M26, M27, 3155, 3171, M31, 3232, 3336, 3690, 3820, 4052, 4120, 4156, M39]
@@ -43,6 +42,7 @@ git clone https://github.com/NKrit/RepUnitTyping.git
 
 ## Output:
     Output file specified: predicted number of repeat units in VNTR loci
+    (In the non-prediction mode, the presence or absence is shown)
     Output log file: number of hits in BLAST for each repeat unit or flanking sequence
     Output log2 file: summary of BLAST search results in the fasta mode
 
