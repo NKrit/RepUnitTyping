@@ -101,5 +101,5 @@ or you may use a shell script, **rep-unit-typing.sh**, to run RepUnitTyping.py m
 cd ./RepUnitTyping
 sh rep-unit-typing.sh
 ```
-* For good prediction, PCR-free deep sequencing (depth of coverage > 200) is required.
+* For good prediction, PCR-free deep sequencing (depth of coverage > 200) is indispensable.
 * When inconsistencies with experimental typing results are suspected, incomplete matches due to unidentified repeat unit variants or flanking sequences should be considered, and an optimal **rep_unit.fasta** file should be reconstructed, extracting unlisted variants from de-novo assembled sequences.
