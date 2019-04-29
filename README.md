@@ -38,7 +38,7 @@ git clone https://github.com/NKrit/RepUnitTyping.git
 ```    
 ## Input:
     Fastq file or pair-end fastq files
-    Fasta file of a complete genomic sequence or assembled contigs of an Mtb isolate
+    Fasta file of a complete genomic sequence or assembled contigs
 
 ## Output:
     Output file specified: predicted number of repeat units in VNTR loci
