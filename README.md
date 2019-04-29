@@ -96,7 +96,7 @@ python RepUnitTyping.py --seq ../AL123456.3H37Rv.fasta -q rep_unit.fasta -O RepU
 # rep_unit.fasta should be located in the ref subdirectory.
 # Output files created from the last command are present in the RepUnit_out directory as an example. You can delete them when new analyses are made.
 ```
-or you may use a shell script, **rep-unit-typing.sh**, to run RepUnitTyping.py more interactively.    
+or you may use a shell script, **rep-unit-typing.sh**, to run RepUnitTyping.py more interactively in batch mode.    
 ```
 cd ./RepUnitTyping
 sh rep-unit-typing.sh
