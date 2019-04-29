@@ -19,7 +19,7 @@ Locus labels (=keys):
     Python2.7 or 3.x
     BLAST+ [ncbi-blast-2.x.x+ or the latest (-2.8.1+)]
     (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/)
-    samtools-1.x
+    samtools-1.x or the latest (-1.9)
     (http://www.htslib.org/download/)
     
     python libraries used inside:
