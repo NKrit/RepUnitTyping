@@ -37,7 +37,7 @@ cd
 git clone https://github.com/NKrit/RepUnitTyping.git
 ```    
 ## Input:
-    Fastq file or pair-end fastq files
+    Fastq(.gz) file or pair-end files
     Fasta file of a complete genomic sequence or assembled contigs
 
 ## Output:
