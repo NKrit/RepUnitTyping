@@ -16,7 +16,7 @@ Locus labels (=keys):
 
 
 ## Prerequisites:
-    Python2.7 or 3.x
+    Python2.7 or 3.5(3.6)
     BLAST+ [ncbi-blast(-2.8.1+)]
     (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/)
     samtools-1.9
