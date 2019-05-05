@@ -59,8 +59,8 @@ python RepUnitTyping.py --help
         	              units based on hits on flanking sequences [Default is
                               off]
   	--seq                 set this if input is a fasta file that contains only a
-                              complete genomic sequence or assembled contigs from an
-      	                      Mtb isolate [Default is off]
+                              complete genomic sequence or assembled contigs
+                              [Default is off]
   	-s SWIFT, --swift=SWIFT
                               swift mode, either "on" or "off" [Default: off]
   	-O OUTDIR, --outdir=OUTDIR
@@ -78,8 +78,9 @@ python RepUnitTyping.py --help
                               query file for repeat units [Default is rep_unit.fasta
                               in "ref" subdirectory]
   	-c CUTOFF, --cutoff=CUTOFF
-        	              threshold for the presence of each sequence [Default:
-                	      0.1] times as compared with the average read depth
+                              threshold for the presence of each sequence [Default:
+                              0.1] times as compared with the average read depth
+                              calculated from Mtb genome size
 ```
 ## Examples:
 ```
