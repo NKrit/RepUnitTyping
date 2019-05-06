@@ -78,9 +78,9 @@ python RepUnitTyping.py --help
                               query file for repeat units [Default is rep_unit.fasta
                               in "ref" subdirectory]
   	-c CUTOFF, --cutoff=CUTOFF
-                              threshold for the presence of each sequence [Default:
-                              0.1] times as compared with the average read depth
-                              calculated from Mtb genome size
+        	              threshold for the presence of each sequence [Default:
+                	      0.1] times the average read depth calculated from Mtb
+                              genome size
 ```
 ## Examples:
 ```
