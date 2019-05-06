@@ -79,7 +79,7 @@ python RepUnitTyping.py --help
                               in "ref" subdirectory]
   	-c CUTOFF, --cutoff=CUTOFF
         	              threshold for the presence of each sequence [Default:
-                	      0.1] times the average read depth calculated from Mtb
+                	      0.15] times the average read depth calculated from Mtb
                               genome size
 ```
 ## Examples:
