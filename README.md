@@ -5,6 +5,10 @@
 This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016).
 Entire modules for VNTR repeat-unit prediction were newly built in this script.
 
+### Citation
+[Genotyping of Mycobacterium tuberculosis spreading in Hanoi, Vietnam using conventional and whole genome sequencing methods]
+(https://doi.org/10.1016/j.meegid.2019.104107)
+
 **ref/rep_unit.fasta** contains a provisional set of repeat unit sequences and their flanking sequences observed in the 33 VNTR loci of _Mycobacterium tuberculosis_ for the 24-locus MIRU-VNTR and other VNTR analyses.
 
 You may prepare another multi-fasta file containing user-specified variants optimized for your own settings.  
