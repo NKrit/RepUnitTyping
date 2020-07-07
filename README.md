@@ -102,5 +102,5 @@ sh rep-unit-typing.sh
 ```
 * For good prediction, PCR-free deep sequencing (depth of coverage > 200) is indispensable.
 * When inconsistencies with experimental typing results are suspected, incomplete matches due to unidentified repeat unit variants or flanking sequences should be considered, and an optimal **rep_unit.fasta** file should be reconstructed, extracting unlisted variants from de-novo assembled sequences.
-* Initial version v1.4 (2019-05-06)
-* Revised version v1.5 (2020-07-07): gzip interface mode was modified, and each run is ~40% quicker than before. --sorted option and cleaning-up process were also modified.
+* Initial v1.4 (2019-05-06)
+* Revised v1.5 (2020-07-07): gzip interface mode was modified, and each run is ~40% quicker than before. --sorted option and cleaning-up process were also modified.
