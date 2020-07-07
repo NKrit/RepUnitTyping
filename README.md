@@ -47,7 +47,7 @@ git clone https://github.com/NKrit/RepUnitTyping.git
 ## Output:
     Output file specified: predicted number of repeat units in VNTR loci
     (In the non-prediction mode, the presence or absence of a given sequence is shown)
-    Output log file: number of hits ('CompleteHits'=No mismatch, 'ZeroOneErrorHits'=No or one mismatch) in BLAST for each repeat unit or flanking sequence
+    Output log file: number of hits ('CompleteHits'= No mismatch, 'ZeroOneErrorHits'= No or one mismatch) in BLAST for each repeat unit or flanking sequence
     Output log2 file: summary of search results in the fasta mode
 
 ## Usage:
