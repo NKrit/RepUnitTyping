@@ -2,7 +2,7 @@
 
 ## RepUnitTyping version 1.5
 **RepUnitTyping.py** predicts copy numbers of repeat units in VNTR loci from PCR-free Illumina short reads.  
-In the non-prediction mode, it can also predict the presence/insertion or absence/deletion of any genomic regions (not limited to VNTR loci) specified by nucleotide sequences given in the multi-fasta format.
+In the non-prediction mode, it can also predict the presence/insertion or absence/deletion of any genomic regions (not limited to VNTR loci) specified by nucleotide sequences given in the multi-fasta format.  
 This script is using a backbone of SpoTyping-v2.1, a well-known in-silico spoligotyping tool (Xia E et al. Genome Med. 2016).
 Entire modules for VNTR repeat-unit prediction were newly built.
 
